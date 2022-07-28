@@ -7,7 +7,7 @@ import PowerBlade from './PowerBlade';
 import Projets from './Projets';
 
 const Page = () => (
-    <section>
+    <section className='page'>
         <Routes>
             <Route exact path="/" element={<Accueil />} />
             <Route path="mes-projets" element={<Projets />} />

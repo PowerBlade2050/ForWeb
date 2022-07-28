@@ -9,8 +9,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Nav />
-      <Page />
+      <section className='App_flex'>
+        <Nav />
+        <Page />
+      </section>
       <Footer />
     </div>
   );
