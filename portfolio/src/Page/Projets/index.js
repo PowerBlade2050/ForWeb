@@ -3,7 +3,7 @@ import React from 'react';
 const Component = () => (
     <article>
         <p>
-            lorem
+            loremrerhtrhtrhtrhhthhhr 
         </p>
     </article>
 );

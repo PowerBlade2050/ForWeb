@@ -9,9 +9,9 @@ import Projets from './Projets';
 const Page = () => (
     <section>
         <Routes>
-            <Route exact path="/" component={Accueil} />
-            <Route path="/mes-projets" component={Projets} />
-            <Route path="/power_blade_2050" component={PowerBlade} />
+            <Route exact path="/" element={<Accueil />} />
+            <Route path="mes-projets" element={<Projets />} />
+            <Route path="power_blade_2050" element={<PowerBlade />} />
         </Routes>
     </section>
 );
